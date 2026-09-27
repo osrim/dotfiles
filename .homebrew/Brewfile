@@ -1,0 +1,101 @@
+tap "anomalyco/tap"
+tap "datadog-labs/pack"
+tap "getsentry/tools"
+tap "hashicorp/tap"
+
+brew "atuin"
+brew "bat"
+brew "direnv"
+brew "eza"
+brew "fd"
+brew "fzf"
+brew "gawk"
+brew "jq"
+brew "macos-trash"
+brew "mole"
+brew "nushell"
+brew "ripgrep"
+brew "yadm"
+brew "zellij"
+brew "zoxide"
+brew "zsh"
+
+brew "gh"
+brew "git-delta"
+brew "gnupg"
+brew "hunk"
+brew "tig"
+brew "worktrunk"
+
+brew "actionlint"
+brew "ast-grep"
+brew "biome"
+brew "depsguard"
+brew "gitleaks"
+brew "shellcheck"
+brew "shfmt"
+brew "zizmor"
+
+brew "mise"
+brew "pnpm", link: false
+brew "rust"
+brew "uv"
+
+brew "neovim"
+
+brew "herdr"
+brew "osrim/tap/niksi", trusted: true
+brew "anomalyco/tap/opencode", trusted: true
+brew "rtk"
+
+brew "awscli"
+brew "dive"
+brew "s5cmd"
+brew "hashicorp/tap/terraform", trusted: true
+
+brew "pgcli"
+
+brew "bpytop"
+brew "gping"
+brew "lnav"
+
+brew "chafa"
+
+brew "autoconf"
+brew "geos"
+brew "gmp"
+brew "libpq"
+brew "libyaml"
+brew "openssl@3"
+brew "proj"
+brew "readline"
+
+cask "1password-cli"
+cask "ghostty"
+cask "session-manager-plugin"
+cask "tuple"
+cask "visual-studio-code"
+cask "yaak"
+cask "zed"
+
+cask "claude"
+cask "codex"
+cask "ollama-app"
+cask "t3-code"
+
+cask "firefox@nightly"
+cask "helium-browser"
+
+cask "numi"
+cask "obsidian"
+cask "raycast"
+cask "reader"
+
+cask "alt-tab"
+cask "betterdisplay"
+cask "openlogi"
+cask "rcmd"
+cask "scroll-reverser"
+
+cask "mullvad-vpn"
+cask "tailscale-app"

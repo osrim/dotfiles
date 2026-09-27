@@ -1,0 +1,7 @@
+[gpg "ssh"]
+  # program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[user]
+  name = John Doe
+  email = joh.doe@example.com
+  # signingkey =

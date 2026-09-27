@@ -1,0 +1,64 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-r": "workspace::ToggleLeftDock",
+      "cmd-b": "workspace::ToggleRightDock",
+      "cmd-j": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-backspace": "editor::DeleteLine",
+      // "cmd-d": "search::SelectNextMatch"
+    }
+  },
+  {
+    "bindings": {
+      "alt-s": "workspace::MoveItemToPaneInDirection"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-.": "settings_profile_selector::Toggle"
+    }
+  },
+  {
+    "context": "KeymapEditor",
+    "bindings": {
+      "cmd-shift-c": null
+    }
+  },
+  {
+    "bindings": {
+      "cmd-shift-c": null,
+      "cmd-shift-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-c": "workspace::CopyRelativePath"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "cmd-shift-c": "workspace::CopyRelativePath"
+    }
+  },
+  {
+    "context": "Workspace && !Terminal",
+    "unbind": {
+      "cmd-shift-r": "task::Spawn"
+    }
+  }
+]
