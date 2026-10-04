@@ -5,6 +5,7 @@ export PATH="$PNPM_HOME/bin:$PATH"
 export PATH="$PATH:$HOME/go/bin"
 export PATH="$PATH:$HOME/.lmstudio/bin"
 export PATH="$PATH:$HOME/.bun/bin"
+export PATH="/Users/oscar/.local/bin:$PATH"
 
 export EDITOR=nvim
 export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agent.sock
