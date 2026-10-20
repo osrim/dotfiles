@@ -1,0 +1,46 @@
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
+service_tier = "default"
+project_doc_fallback_filenames = ["CLAUDE.md"]
+[projects."/Users/oscar/repositories/ski"]
+trust_level = "trusted"
+
+[projects."/Users/oscar/repositories/niksi"]
+trust_level = "trusted"
+
+[projects."/Users/oscar/repositories/dico"]
+trust_level = "trusted"
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "context-used", "five-hour-limit", "weekly-limit", "context-window-size", "fast-mode"]
+status_line_use_colors = true
+screen_reader_detection_done = true
+
+[tui.model_availability_nux]
+gpt-6-astra = 3
+"gpt-6.1-sol" = 4
+
+[mcp_servers.linear]
+url = "https://mcp.linear.app/mcp"
+
+[mcp_servers.linear.tools.save_issue_label]
+approval_mode = "approve"
+
+[features]
+hooks = true
+
+[hooks.state]
+
+[hooks.state."/Users/oscar/.codex/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:3a3d08f48dda97b715fb010bc9398f94ff6c0cddcf797a81e0bcf183ca13dd4e"
+
+[marketplaces.worktrunk]
+source_type = "git"
+source = "https://github.com/max-sixty/worktrunk.git"
+
+[plugins."worktrunk@worktrunk"]
+enabled = true
+
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+bearer_token_env_var = "CONTEXT7_API_KEY"

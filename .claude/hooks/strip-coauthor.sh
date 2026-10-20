@@ -21,9 +21,11 @@ if [[ -n $next_out || $next_status -ne 0 ]]; then
 fi
 
 if [[ $(jq -r '.tool_input.command' <<<"$stripped") != $(jq -r '.tool_input.command' <<<"$input") ]]; then
-  jq -c '{hookSpecificOutput: {
+  # Codex rejects updatedInput without permissionDecision "allow" (a rewrite marker, not an approval).
+  # In Claude, "allow" would skip the permission prompt, so it is set only for HOOK_AGENT=codex.
+  jq -c --arg agent "${HOOK_AGENT:-claude}" '{hookSpecificOutput: ({
     hookEventName: "PreToolUse",
     permissionDecisionReason: "Stripped Co-Authored-By trailer",
     updatedInput: .tool_input
-  }}' <<<"$stripped"
+  } + (if $agent == "codex" then {permissionDecision: "allow"} else {} end))}' <<<"$stripped"
 fi

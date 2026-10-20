@@ -1,5 +1,9 @@
 {
-  "disableClaudeAiConnectors": true,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "includeGitInstructions": false,
   "model": "opus",
   "modelPicker": {
     "options": [
@@ -13,6 +17,7 @@
       }
     ]
   },
+  "disableClaudeAiConnectors": true,
   "hooks": {
     "PreToolUse": [
       {
@@ -45,7 +50,9 @@
   },
   "enabledPlugins": {
     "claude-hud@claude-hud": true,
-    "worktrunk@worktrunk": true
+    "worktrunk@worktrunk": true,
+    "hemnet-cli@hemnet": false,
+    "ast-grep@ast-grep-marketplace": true
   },
   "extraKnownMarketplaces": {
     "claude-hud": {
@@ -66,8 +73,9 @@
   "autoMemoryEnabled": false,
   "theme": "dark-ansi",
   "agentPushNotifEnabled": true,
-  "attribution": {
-    "commit": "",
-    "pr": ""
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    }
   }
 }
