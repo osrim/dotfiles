@@ -1,0 +1,229 @@
+{
+  "lockfileVersion": 1,
+  "skills": {
+    "asd-ste100": {
+      "source": "https://github.com/danyuchn/asd-ste100-skill",
+      "branch": "master",
+      "path": "",
+      "commit": "32511c6992ecb5f1971e46a2943f2e6adceedafe",
+      "integrity": "sha256-SQQxxzvU1rLbKY8GgAg6OK5PKcIL4lNuyBkOEJgVZXE=",
+      "track": "auto",
+      "disabled": true
+    },
+    "code-review": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/code-review",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-mlcDqwHuMQSjeli7NIO1mslUMT0IL8tLKd4jkVRsk4A=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "codebase-design": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/codebase-design",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-D78rF/kT7D4RmYpNl6usmft4txG3iVA0uEMEC4iuxKk=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "commit-message": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/commit-message",
+      "commit": "003744c6a4df254f09daab20fae3428d12c4c8ee",
+      "integrity": "sha256-RpUPb/20W/g4gLRVtFWvkYAsakXKNHS1lUZ4IF6aDn0=",
+      "track": "auto",
+      "tag": "v0.2.0"
+    },
+    "docs-writer": {
+      "source": "https://github.com/tech-leads-club/agent-skills",
+      "branch": "main",
+      "path": "packages/skills-catalog/skills/(development)/docs-writer",
+      "commit": "b656e589c9367c8c6eef36c51f96a53af2f32c5d",
+      "integrity": "sha256-jjeJFem3QAypF1KcTWW8BCa/V4bh2PKBoni1mEOaCxc=",
+      "track": "auto",
+      "tag": "v1.6.1"
+    },
+    "domain-modeling": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/domain-modeling",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-smwq+QtAlMo/yuJHdZxGgnEIyXLnRStdsiA1meOcoEw=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "grill-with-docs": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/grill-with-docs",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-TBXLfUiBNDJwRuICmkN5OGWv9nyhE512z0JEQMYgyUk=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "grilling": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/productivity/grilling",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-hZQJOvjyCcTrhgzvBYZHHpIUJtfCY20sK9bMJPoKdL0=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "handoff": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/productivity/handoff",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-mHfZFEg8DUPYUn+qk9Zg6TMgyxOxiW0P4fS8MTHyK9Y=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "i-have-adhd": {
+      "source": "https://github.com/ayghri/i-have-adhd",
+      "branch": "main",
+      "path": "skills/i-have-adhd",
+      "commit": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "integrity": "sha256-mi/AARRa81g/LpYZOCgef9fdXu5PTKSQIqfui/7U1rs=",
+      "track": "auto",
+      "tag": "v0.4.1"
+    },
+    "implement": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/implement",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-EkVTIG0CY7z2M30Osi8GVrG98KTdN/NQnkeV6aAZY3o=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "improve-codebase-architecture": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/improve-codebase-architecture",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-XuiTmNBLqJE3qh76IZsWZATVd28rjazbRgLg5pCFgCU=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "ponytail-review": {
+      "source": "https://github.com/DietrichGebert/ponytail",
+      "branch": "main",
+      "path": "skills/ponytail-review",
+      "commit": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+      "integrity": "sha256-e1q9Qxi7MwFENdeaZnxDaPNGgn0+FEHzE35uAY4xFKs=",
+      "track": "auto",
+      "tag": "v5.3.2"
+    },
+    "pr-description": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/pr-description",
+      "commit": "003744c6a4df254f09daab20fae3428d12c4c8ee",
+      "integrity": "sha256-OuXUukh7v4i9lrG+eBsJbT3b6SHw3rxH8SITrHWFss4=",
+      "track": "auto",
+      "tag": "v0.2.0"
+    },
+    "prototype": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/prototype",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-yJ/aeMshBHcWcHWIrB7EiA0AfrNC8zf2fw8SQxJjQ+I=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "research": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/research",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-MeZJFBVtAT0jS/Vii8UBomY3qvStnpfzpcsb2r75fFI=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "tdd": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/tdd",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-VL/uHgLPmYz87JBqi6T1eJmyjNvkGMmZHJJcwgGCPQs=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "teach": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/productivity/teach",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-6KUugdW7bOjl1qrQ+VggoyGwoEH5Oub/Ylp02E65u4w=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "the-writing-whip": {
+      "source": "https://gist.github.com/ossa-ma/dae6f9571534f3fbd1266a384be00e11",
+      "branch": "main",
+      "path": "",
+      "commit": "0052813529e65fdbda47b2027dd91f2a9e1897a9",
+      "integrity": "sha256-xnl/e6foMBp0kt/DYksYEYxRq/SKnNmPxevdLBvxRgk=",
+      "track": "auto"
+    },
+    "to-spec": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/to-spec",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-PeMu051HGWUvtKE5YrWXq6D9ci6PIXDyNgWPeD6Dj5c=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "to-tickets": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/to-tickets",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-JppviCtYKXEVrmx8Ux8JSc9dGkli+djQFUUA5ovCv5E=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "wait-what": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/productivity/wait-what",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-lBUGmnSLDT26ZcxtYgwquuZy1Y24sFVBt86OyBu9vng=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "wayfinder": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/wayfinder",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-Ukp9E4vZHLtTqpICljQtqDEzDtg8TNKgCEDYUCW5/2g=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "wizard": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/engineering/wizard",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-gRXvpcb9EwDL+PqDflWfdV2SXAYtAHLuMgpJZQ7O6Qo=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    },
+    "writing-for-agents": {
+      "source": "https://github.com/mattpocock/skills",
+      "branch": "main",
+      "path": "skills/productivity/writing-for-agents",
+      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "integrity": "sha256-QO1SQad9MAQ7M+AUpt14ZmmY9QZN7vU1qYw5nKZR4/c=",
+      "track": "auto",
+      "tag": "v1.3.1"
+    }
+  }
+}
