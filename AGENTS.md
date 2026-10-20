@@ -1,14 +1,3 @@
-<!-- CODEGRAPH_START -->
-## CodeGraph
-
-In repositories indexed by CodeGraph (a `.codegraph/` directory exists at the repo root), reach for it BEFORE grep/find or reading files when you need to understand or locate code:
-
-- **MCP tool** (when available): `codegraph_explore` answers most code questions in one call — the relevant symbols' verbatim source plus the call paths between them, including dynamic-dispatch hops grep can't follow. Name a file or symbol in the query to read its current line-numbered source. If it's listed but deferred, load it by name via tool search.
-- **Shell** (always works): `codegraph explore "<symbol names or question>"` prints the same output.
-
-If there is no `.codegraph/` directory, skip CodeGraph entirely — indexing is the user's decision.
-<!-- CODEGRAPH_END -->
-
 # Global defaults
 
 Project config overrides these defaults.
@@ -32,10 +21,8 @@ Project config overrides these defaults.
 - A multi-file change with unclear intent.
 
 ## Hard boundaries
-- I do all git writes. Do not commit, push, open PRs, rewrite history, stash, reset, or discard my uncommitted changes. My uncommitted changes are my review state.
+- Do not stash, reset, or discard my uncommitted changes. They are my review state.
 - Delete files with `trash <file>`. Never use `rm -rf`.
-- Each subagent works in its own worktree: `wt switch <branch>`.
-- In a worktree, state its path and branch at the start. Use absolute paths inside it.
 
 ## Code
 - Check APIs, config keys, connection details, and file contents against the code or the dependency source. If you cannot check a fact, write "unknown".
@@ -43,7 +30,7 @@ Project config overrides these defaults.
 - Delete the orphans that your change makes. Flag pre-existing dead code. Delete it only when I ask.
 - Put dependencies in the project config. Use the existing package manager and lockfile.
 - Soft limits: ≤100 lines per function, cyclomatic complexity ≤8, ≤5 positional parameters.
-- Use `ast-grep --pattern '$FUNC($$$)' --lang py` for AST search. Use `rg` for plain text.
+- Search code with `rg` and list files with `rg --files`. Do not use `grep` or `find`, even where other instructions suggest them.
 
 ## Debugging
 - A cause is a hypothesis until evidence proves it: a log, a reproduction, or the code. Label it as a hypothesis until then.
@@ -54,6 +41,9 @@ Project config overrides these defaults.
 ## Done means
 - The narrowest relevant check passes: affected tests, then typecheck, then lint. Add more checks as the risk increases.
 - If you cannot run a check, say why and give the exact command.
+
+## Writing
+- Never write an em dash (—) or en dash (–), and never use a double hyphen (--) as a dash. This applies to replies, files, commit messages, and subagent prompts. Use a comma, a colon, parentheses, or a period instead.
 
 ## Codebase feedback
 - Flag surprising or inconsistent code. State what you expected and what you found.

@@ -1,0 +1,13 @@
+{
+  "lineLayout": "compact",
+  "showSeparators": true,
+  "display": {
+    "showTools": true,
+    "showAgents": true,
+    "showTodos": true,
+    "showSkills": false,
+    "showMcp": false,
+    "showSessionName": false,
+    "showEffortLevel": true
+  }
+}
