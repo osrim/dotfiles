@@ -69,13 +69,13 @@
     }
   },
   "effortLevel": "high",
-  "tui": "fullscreen",
-  "autoMemoryEnabled": false,
-  "theme": "dark-ansi",
-  "agentPushNotifEnabled": true,
   "modelSettings": {
     "claude-opus-5-5": {
       "effortLevel": "high"
     }
-  }
+  },
+  "tui": "fullscreen",
+  "autoMemoryEnabled": false,
+  "theme": "dark-ansi",
+  "agentPushNotifEnabled": true
 }

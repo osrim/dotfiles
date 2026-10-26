@@ -189,6 +189,14 @@
       "track": "auto",
       "tag": "v1.3.1"
     },
+    "unslop": {
+      "source": "https://github.com/cursor/plugins",
+      "branch": "main",
+      "path": "pstack/skills/unslop",
+      "commit": "99b609a72323b70204eab407c622f436e858e112",
+      "integrity": "sha256-IL54LirSmZok8KgyIPuS0ksBfoKInnmJ68GAE6EFphs=",
+      "track": "auto"
+    },
     "wait-what": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
@@ -206,6 +214,14 @@
       "integrity": "sha256-Ukp9E4vZHLtTqpICljQtqDEzDtg8TNKgCEDYUCW5/2g=",
       "track": "auto",
       "tag": "v1.3.1"
+    },
+    "web-design-guidelines": {
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "branch": "main",
+      "path": "skills/web-design-guidelines",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "integrity": "sha256-rRDiVckfFdjumkqVJOJu1Ysc1cXsXpTe9Mztu7sDH74=",
+      "track": "auto"
     },
     "wizard": {
       "source": "https://github.com/mattpocock/skills",
