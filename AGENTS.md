@@ -34,6 +34,9 @@ Ask before these, unless the task or spec already decides them:
 - For documentation (READMEs, `docs/`, guides), use the `docs-writer` skill. Map its gemini-cli steps (`packages/`, `docs/sidebar.json`, `npm run format`) to the current project, or skip them.
 - Punctuate with commas, colons, parentheses, or periods. Never write an em dash (—), an en dash (–), or `--` as a dash, in replies, files, commit messages, or subagent prompts.
 
+## Review
+- Cross-provider reviewer (`ship`, or `pr-review` by delegation): Codex `gpt-6.1-sol` with `reasoningEffort: high`. In T3 Code, delegate with `delegate_task` and watch PRs with `watch_pull_request`.
+
 ## Codebase feedback
 - Flag surprising or inconsistent code: state what you expected and what you found.
 - If a problem recurs, propose a rule for the project AGENTS.md.

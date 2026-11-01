@@ -1,6 +1,15 @@
 {
   "lockfileVersion": 1,
   "skills": {
+    "address-review": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/address-review",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-+oLCy75HxWq0DVxjqJW1iisgEQaQCBGb/MRvm/62Xxs=",
+      "track": "auto",
+      "tag": "v0.6.0"
+    },
     "asd-ste100": {
       "source": "https://github.com/danyuchn/asd-ste100-skill",
       "branch": "master",
@@ -10,32 +19,41 @@
       "track": "auto",
       "disabled": true
     },
+    "babysit-pr": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/babysit-pr",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-pT6ZQpC8D3yLSdMVV4PfCxxydGoDvORkDAhPKMZN59Y=",
+      "track": "auto",
+      "disabled": true
+    },
     "code-review": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/code-review",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-mlcDqwHuMQSjeli7NIO1mslUMT0IL8tLKd4jkVRsk4A=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-hmdmSySd3lsTXfZiLr61ARskuB44rN82jbD+Ds4enkk=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "codebase-design": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/codebase-design",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-D78rF/kT7D4RmYpNl6usmft4txG3iVA0uEMEC4iuxKk=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-k9OkLfypvYQ91GCSNkJZt4YgKITclPoXE7mviw/iI0g=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "commit-message": {
       "source": "https://github.com/osrim/skills",
       "branch": "main",
       "path": "skills/commit-message",
-      "commit": "003744c6a4df254f09daab20fae3428d12c4c8ee",
-      "integrity": "sha256-RpUPb/20W/g4gLRVtFWvkYAsakXKNHS1lUZ4IF6aDn0=",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-x/gJ6EGKRXjcZBF4Mq/9+/moAvGnbQJ5X1Yj7QwMihk=",
       "track": "auto",
-      "tag": "v0.2.0"
+      "tag": "v0.6.0"
     },
     "docs-writer": {
       "source": "https://github.com/tech-leads-club/agent-skills",
@@ -50,37 +68,64 @@
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/domain-modeling",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-smwq+QtAlMo/yuJHdZxGgnEIyXLnRStdsiA1meOcoEw=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
+    },
+    "file-pr": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/file-pr",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-oMqZvTKJpbX5gNRvs6XSDGXKmgZVZR0QByP/1LIs5tI=",
+      "track": "auto",
+      "disabled": true
+    },
+    "full-send": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/full-send",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-NJIYaVEzhxLxVJUvLGgu92kiXCJojOxxVWzoI3O4MwM=",
+      "track": "auto",
+      "disabled": true
+    },
+    "full-stop": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/full-stop",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-Guom9H6Z2IvpCLczVW5hr100OsPZk46qkZc9az8xvuQ=",
+      "track": "auto",
+      "disabled": true
     },
     "grill-with-docs": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/grill-with-docs",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-TBXLfUiBNDJwRuICmkN5OGWv9nyhE512z0JEQMYgyUk=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "grilling": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/productivity/grilling",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-hZQJOvjyCcTrhgzvBYZHHpIUJtfCY20sK9bMJPoKdL0=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-a5Xov9UUep+dLuMSbrX09l5n/U+vK084HqoVRlzlY40=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "handoff": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/productivity/handoff",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-mHfZFEg8DUPYUn+qk9Zg6TMgyxOxiW0P4fS8MTHyK9Y=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-RCaWuz5tPnfnEdN1pmcVEzXtRK0CGI3LzC+O5yaxUJM=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "i-have-adhd": {
       "source": "https://github.com/ayghri/i-have-adhd",
@@ -91,77 +136,139 @@
       "track": "auto",
       "tag": "v0.4.1"
     },
+    "impeccable": {
+      "source": "https://github.com/pbakaus/impeccable",
+      "branch": "main",
+      "path": ".claude/skills/impeccable",
+      "root": ".claude/skills",
+      "commit": "02523aec3e4c4580102d996d1b6a71fbe062e03f",
+      "integrity": "sha256-lRxkEMMvuDr5O1wyAU42SBJAOlgqOGmbALQUFPEJ+80=",
+      "track": "auto"
+    },
     "implement": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/implement",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-EkVTIG0CY7z2M30Osi8GVrG98KTdN/NQnkeV6aAZY3o=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-0wsoVcovAYuxjkUkTg5Yuo5gVjr/kTU929ktOi5T7RM=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "improve-codebase-architecture": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/improve-codebase-architecture",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-XuiTmNBLqJE3qh76IZsWZATVd28rjazbRgLg5pCFgCU=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-ETFDyoJMve6fvHnzRTFk70vlGpCCfw9HbpdMoXGGnuE=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
+    },
+    "leaving-pr-comments": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/leaving-pr-comments",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-cFZ5fP2dVTsYzpL8mCBxbyU8cm7obb4wDPsSyDRG/9w=",
+      "track": "auto",
+      "disabled": true
     },
     "ponytail-review": {
       "source": "https://github.com/DietrichGebert/ponytail",
       "branch": "main",
       "path": "skills/ponytail-review",
-      "commit": "16352ac229eb08a9598dcae48fe9f2b342567d86",
+      "commit": "7801d061243d7b753bad0e0b3c057cd250b11755",
       "integrity": "sha256-e1q9Qxi7MwFENdeaZnxDaPNGgn0+FEHzE35uAY4xFKs=",
       "track": "auto",
-      "tag": "v5.3.2"
+      "tag": "v5.3.3"
     },
     "pr-description": {
       "source": "https://github.com/osrim/skills",
       "branch": "main",
       "path": "skills/pr-description",
-      "commit": "003744c6a4df254f09daab20fae3428d12c4c8ee",
-      "integrity": "sha256-OuXUukh7v4i9lrG+eBsJbT3b6SHw3rxH8SITrHWFss4=",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-dkajxntGXAeeD6P+pgkitZK/PRDauocBRZwLpZDOxJY=",
       "track": "auto",
-      "tag": "v0.2.0"
+      "tag": "v0.6.0"
+    },
+    "pr-review": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/pr-review",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-sq2zM25fk7HPY9T4RhU+ka+ZdU4/+2RUpa1zXFMbwTg=",
+      "track": "auto",
+      "tag": "v0.6.0"
     },
     "prototype": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/prototype",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-yJ/aeMshBHcWcHWIrB7EiA0AfrNC8zf2fw8SQxJjQ+I=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "research": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/research",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-MeZJFBVtAT0jS/Vii8UBomY3qvStnpfzpcsb2r75fFI=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-bglNXimhIeeRYmAka1/Ctf25UAlyRdnnrHKDpck9QZs=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
+    },
+    "security-audit": {
+      "source": "https://github.com/cloudflare/security-audit-skill",
+      "branch": "main",
+      "path": "skills/security-audit",
+      "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8",
+      "integrity": "sha256-/P38+A2g6s5Vt6DogiTS3vPkLF79ql1KB0dr4AGxgxA=",
+      "track": "auto"
+    },
+    "ship": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/ship",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-+UIlU4oINRCmZQmf1JdcHPzZfCXE3leXjNZoHtx+RDo=",
+      "track": "auto",
+      "tag": "v0.6.0"
+    },
+    "sol-loop": {
+      "source": "https://github.com/t3dotgg/tstack",
+      "branch": "main",
+      "path": "skills/sol-loop",
+      "commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+      "integrity": "sha256-WK9W+SLGg/GZJriZztRWDhRDQYddJlSQ+aEefvnqXf4=",
+      "track": "auto",
+      "disabled": true
+    },
+    "stack-implement": {
+      "source": "https://github.com/osrim/skills",
+      "branch": "main",
+      "path": "skills/stack-implement",
+      "commit": "ae08074d48f9977b29e4dd4fb6237f11ff076d95",
+      "integrity": "sha256-44pf60yL90hBPl/S6fO/BjpV3VHm+C0xWMM0pHTi9Q4=",
+      "track": "auto",
+      "tag": "v0.6.0"
     },
     "tdd": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/tdd",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-VL/uHgLPmYz87JBqi6T1eJmyjNvkGMmZHJJcwgGCPQs=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-Yr93lDVkrxwHsTO1Ubd6NPp+PZlL3BgrhP0hshSe3lc=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "teach": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/productivity/teach",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-6KUugdW7bOjl1qrQ+VggoyGwoEH5Oub/Ylp02E65u4w=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-q/GcUsH71bpgWFlyMlXS6AHQpq6U1+p2qLuwuJfYAvY=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "the-writing-whip": {
       "source": "https://gist.github.com/ossa-ma/dae6f9571534f3fbd1266a384be00e11",
@@ -175,25 +282,25 @@
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/to-spec",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-PeMu051HGWUvtKE5YrWXq6D9ci6PIXDyNgWPeD6Dj5c=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "to-tickets": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/to-tickets",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-JppviCtYKXEVrmx8Ux8JSc9dGkli+djQFUUA5ovCv5E=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-k9oYtgx9Kn1mQfvGFiW+1DRwhz4P7A1tMyFj1eMdYwI=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "unslop": {
       "source": "https://github.com/cursor/plugins",
       "branch": "main",
       "path": "pstack/skills/unslop",
-      "commit": "99b609a72323b70204eab407c622f436e858e112",
+      "commit": "1ba91fc25c0977741dd0e267849e6234b037ed0a",
       "integrity": "sha256-IL54LirSmZok8KgyIPuS0ksBfoKInnmJ68GAE6EFphs=",
       "track": "auto"
     },
@@ -201,25 +308,25 @@
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/productivity/wait-what",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-lBUGmnSLDT26ZcxtYgwquuZy1Y24sFVBt86OyBu9vng=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "wayfinder": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/wayfinder",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-Ukp9E4vZHLtTqpICljQtqDEzDtg8TNKgCEDYUCW5/2g=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-fcnh0+mMr4HzIysuGcAhlm1bhhCdkQexH70+n5Zah40=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "web-design-guidelines": {
       "source": "https://github.com/vercel-labs/agent-skills",
       "branch": "main",
       "path": "skills/web-design-guidelines",
-      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
       "integrity": "sha256-rRDiVckfFdjumkqVJOJu1Ysc1cXsXpTe9Mztu7sDH74=",
       "track": "auto"
     },
@@ -227,19 +334,19 @@
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/engineering/wizard",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
-      "integrity": "sha256-gRXvpcb9EwDL+PqDflWfdV2SXAYtAHLuMgpJZQ7O6Qo=",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
+      "integrity": "sha256-DajB9yNBSE7t0bT/M+8VUo+H2ezec+hdmrNARzuxIms=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     },
     "writing-for-agents": {
       "source": "https://github.com/mattpocock/skills",
       "branch": "main",
       "path": "skills/productivity/writing-for-agents",
-      "commit": "24fe0ef7737efae15c87225755e9f6f5965e4888",
+      "commit": "d1478fcb140db0b93c0c8df17bcfd311844749d0",
       "integrity": "sha256-QO1SQad9MAQ7M+AUpt14ZmmY9QZN7vU1qYw5nKZR4/c=",
       "track": "auto",
-      "tag": "v1.3.1"
+      "tag": "v1.3.2"
     }
   }
 }
