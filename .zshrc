@@ -27,6 +27,11 @@ eval "$(atuin init zsh)"
 [[ -n "$CLAUDECODE" ]] || eval "$(zoxide init zsh)"
 command -v wt >/dev/null && eval "$(command wt config shell init zsh)"
 
+source "$(brew --prefix)/share/zsh-ai/zsh-ai.plugin.zsh"
+export ZSH_AI_PROMPT_EXTEND="Target macOS (BSD userland, no GNU coreutils): use BSD flags such as sed -i '', stat -f, date -v or date -j -f, and top -l 1. Not installed: tac (use tail -r), nproc (use sysctl -n hw.ncpu), free (use vm_stat), watch, ip (use ifconfig or ipconfig getifaddr en0). Always give ping a count with -c.
+In this shell these names are aliases for other tools: cat code dc find ls ping top. Prefix any of them with 'command' (for example: command find . -type f) so the real command runs."
+
+
 source ~/.zsh/aliases.zsh
 source ~/.zsh/functions.zsh
 
